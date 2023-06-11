@@ -125,9 +125,9 @@ function update() {
         }
     }
 
-    // clear bulet
-    while (bulletArray.length > 0 && (bulletArray[0].used || bulletArray[0].y < 0)){
-        bulletArray.shift();
+    //clear bullets
+    while (bulletArray.length > 0 && (bulletArray[0].used || bulletArray[0].y < 0)) {
+        bulletArray.shift(); //removes the first element of the array
     }
 
     //next level
